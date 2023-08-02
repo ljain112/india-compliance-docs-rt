@@ -16,9 +16,25 @@ p > img {
 }
 
 :root {
-  --vp-c-brand: #038af7;
-  --vp-c-brand-light: #4da9f7;
-  --vp-c-brand-lighter: #76bcf5;
-  --vp-button-brand-hover-bg: var(--vp-c-brand-light);
-  --vp-button-brand-border: var(--vp-c-brand-lighter);
+  --vp-c-brand: #0089ff;
+  --vp-c-brand-light: #038af7;
+  --vp-c-brand-lighter: #2490ef;
+  --vp-c-brand-dark: #0079e0;
+  --vp-c-brand-darker: #0069c7;
+  --vp-c-text-1: #1e293b;
+  --vp-c-text-2: #64748b;
+}
+
+.dark {
+  --vp-c-text-1: #e6edf3;
+  --vp-c-text-2: #64748b;
+}
+
+.VPNavBarTitle .title {
+  color: #038af7;
+  font-size: 24px;
+  font-weight: 600;
+}
+.VPNavBarTitle .title:hover {
+  color: rgba(0, 0, 0, 0.9);
 }
